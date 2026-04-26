@@ -1,0 +1,27 @@
+﻿# Dependências
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
+
+# Ambiente virtual
+venv/
+.env
+env/
+
+# Arquivos de mídia (muito pesados)
+*.mp4
+*.mp3
+*.wav
+clipes-reais/
+output/
+downloads/
+
+# Sistema
+.DS_Store
+Thumbs.db
+*.log
+
+# Credenciais
+.env
+*.key

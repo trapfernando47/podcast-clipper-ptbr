@@ -37,3 +37,6 @@ cortes_reap_resultado.json
 episodios_mapeados.json
 podcasts_selecao.json
 cortes_plano_*.json
+
+# Ignore sibling project folder
+maite-tiktok-automation/

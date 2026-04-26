@@ -1,0 +1,17 @@
+{
+  "name": "reap-podcast-cortes",
+  "version": "1.0.0",
+  "description": "Automação de 270 cortes de podcast via API do Reap",
+  "main": "reap_cortes_automation.js",
+  "scripts": {
+    "start": "node reap_cortes_automation.js",
+    "dry-run": "node reap_cortes_automation.js --dry-run",
+    "list-presets": "node reap_cortes_automation.js --list-presets",
+    "financas": "node reap_cortes_automation.js --nicho financas",
+    "saude": "node reap_cortes_automation.js --nicho saude",
+    "carreira": "node reap_cortes_automation.js --nicho carreira"
+  },
+  "dependencies": {
+    "axios": "^1.7.0"
+  }
+}

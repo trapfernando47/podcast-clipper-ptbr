@@ -25,3 +25,15 @@ Thumbs.db
 # Credenciais
 .env
 *.key
+
+# Claude settings
+.claude/
+
+# Dados pessoais/internos
+cortes_erros.csv
+lista-cortes-financas.csv
+top90_financas.csv
+cortes_reap_resultado.json
+episodios_mapeados.json
+podcasts_selecao.json
+cortes_plano_*.json
